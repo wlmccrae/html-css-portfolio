@@ -5,6 +5,14 @@ body {
     margin-right: 20px;
 }
 
+.header {
+    background-color: #08276b;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -43,7 +51,9 @@ a.project-link:active {
 
 h1 {
     text-align: center;
-    padding-top: 10px;
+    font-style: oblique;
+    margin: 0px;
+    padding-top: 20px;
 }
 
 .main-content {
@@ -67,10 +77,6 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #08276b;
-    color: #ffffff;
-    position: sticky;
-    top: 0;
 }
 
 .contact > a {
