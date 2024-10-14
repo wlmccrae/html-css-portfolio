@@ -1,0 +1,112 @@
+body {
+    background-color: #e6e9f0;
+    color: #08276b;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #e6e9f0;
+}
+
+a.project-link:link {
+    color: #08276b;
+}
+
+a:visited {
+    color: #e6e9f0;
+}
+
+a.project-link:visited {
+    color: #08276b;
+}
+
+a:hover {
+    color: #525355;
+}
+
+a.project-link:hover {
+    color: #525355;
+}
+
+a:active {
+    color: #dcab0b;
+}
+
+a.project-link:active {
+    color: #dcab0b;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: top;
+    text-align: justified;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #08276b;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+}
+
+.contact > a {
+    padding: 20px;
+}
+
+.me {
+    height: 225px;
+}
+
+.me-descrip {
+    padding-left: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    text-decoration: none;
+    max-width: 200px;
+    padding: 10px;
+}
+
+.project-link {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.project-img {
+    max-width: 200px;
+}
+
+footer {
+    background-color: #08276b;
+    color: #ffffff;
+    font-style: italic;
+    padding: 5px;
+    position: sticky;
+    bottom: 0;
+}
