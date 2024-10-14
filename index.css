@@ -2,7 +2,7 @@ body {
     background-color: #e6e9f0;
     color: #08276b;
     margin-left: 20px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 a {
@@ -46,6 +46,10 @@ h1 {
     padding-top: 10px;
 }
 
+.main-content {
+    padding-left: 10px;
+}
+
 h3 {
     margin-top: 30px;
 }
@@ -53,9 +57,9 @@ h3 {
 .aboutme {
     display: flex;
     flex-direction: row;
-    padding: 10px;
     align-items: top;
     text-align: justified;
+    max-width: 80%;
 }
 
 .contact {
