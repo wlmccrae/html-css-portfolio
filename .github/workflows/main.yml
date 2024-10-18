@@ -21,7 +21,7 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         protocol: ftps
         port: 2222
-        local-dir: ../..
+        local-dir: ../../
         server-dir: wandamccrae.com/
         exclude: |
           ../../.git*
