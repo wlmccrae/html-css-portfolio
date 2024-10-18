@@ -23,5 +23,6 @@ jobs:
         local-dir: ./
         server-dir: wandamccrae.com/
         exclude: |
-          .git*/
-          .git*/**/
+          **/.git*
+          **/.git*/**
+          .DS_Store
