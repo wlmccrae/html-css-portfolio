@@ -14,10 +14,15 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Upload via FTP
-      uses: sebastianpopp/ftp-deploy-action@v1.0
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        ftp-server: ${{ secrets.FTP_SERVER }}
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        protocol: sftp
+        port: 2222
         local-dir: ../..
-        remote-dir: wandamccrae.com
+        server-dir: wandamccrae.com/
+        exclude: |
+          ../../.git*
+          ../../.git*/**
