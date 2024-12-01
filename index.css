@@ -14,8 +14,7 @@
 body {
     background-color: #e6e9f0;
     color: #08276b;
-    margin-left: 10px;
-    margin-right: 10px;
+    max-width: 100%;
 }
 
 .header {
@@ -102,7 +101,7 @@ h3 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    text-align: left;
+    text-align: justify;
     gap: 10px;
     margin-right: 10px;
 }
@@ -134,7 +133,8 @@ h3 {
 .project-item {
     text-decoration: none;
     margin-top: 10px;
-    margin-right: 100px;
+    max-width: 300px;
+    padding-right: 20px;
 }
 
 .project-link {
@@ -153,4 +153,50 @@ footer {
     padding: 5px;
     bottom: 0;
     font-size: 2vw;
+}
+
+/* Responsive CSS for iPad and larger screens */
+@media screen and (min-width: 800px) {
+    .open-sans-wmccrae {
+        font-size: 1rem;
+      }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact {
+        font-size: 1rem;
+    }
+
+    .me {
+        max-width: 15%;
+    }
+
+    .me-descrip {
+        font-size: 1rem;
+    }
+
+    .techstack {
+        margin-top: 10px;
+    }
+
+    footer {
+        font-size: 0.75rem;
+    }
+}
+
+/* Responsive CSS for the largest screens */
+@media screen and (min-width: 1000px) {
+    .aboutme {
+        max-width: 75%;
+    }
 }
