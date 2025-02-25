@@ -15,6 +15,9 @@ jobs:
 
     - name: Run Super-linter
       uses: super-linter/super-linter@v7.2.1
+      env:
+        # To report GitHub Actions status checks
+        GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
 
     - name: Upload via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
