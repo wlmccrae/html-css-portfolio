@@ -19,7 +19,7 @@ body {
 
 .header {
     background-color: #08276b;
-    color: #ffffff;
+    color: #fff;
     margin-bottom: 10px;
     top: 0;
 }
@@ -67,28 +67,28 @@ a.project-link:active {
 h1 {
     text-align: center;
     font-style: oblique;
-    margin: 0px;
-    padding: 10px 3px 0px;
+    margin: 0;
+    padding: 10px 3px 0;
     font-size: 6vw;
 }
 
 h2 {
     text-align: center;
     font-style: oblique;
-    margin: 0px;
-    padding: 5px 3px 0px;
+    margin: 0;
+    padding: 5px 3px 0;
     font-size: 5vw;
 }
 
 h3 {
     font-size: 4vw;
-    margin: 0px;
+    margin: 0;
 }
 
 .contact {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     justify-content: center;
     font-size: 3vw;
 }
@@ -114,8 +114,8 @@ h3 {
 }
 
 .me-descrip {
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 0;
+    padding-top: 0;
     padding-left: 10px;
     font-size: 3vw;
 }
@@ -127,7 +127,7 @@ h3 {
 .projects {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: wrap;
 }
 
 .project-item {
@@ -148,7 +148,7 @@ h3 {
 
 footer {
     background-color: #08276b;
-    color: #ffffff;
+    color: #fff;
     font-style: italic;
     padding: 5px;
     bottom: 0;
@@ -156,7 +156,7 @@ footer {
 }
 
 /* Responsive CSS for iPad and larger screens */
-@media screen and (min-width: 800px) {
+@media screen and (width >= 800px) {
     .open-sans-wmccrae {
         font-size: 1rem;
       }
@@ -195,7 +195,7 @@ footer {
 }
 
 /* Responsive CSS for the largest screens */
-@media screen and (min-width: 1000px) {
+@media screen and (width >= 1000px) {
     .aboutme {
         max-width: 75%;
     }
