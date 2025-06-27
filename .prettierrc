@@ -1,4 +1,4 @@
 {
-  "printWidth": 999,  // Effectively disables line wrapping
-  "proseWrap": "never"  // For markdown/content
+  "printWidth": 999,
+  "proseWrap": "never"
 }
