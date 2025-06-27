@@ -5,6 +5,12 @@ on:
     branches:
       - main
 
+# Add these permissions at the top level
+permissions:
+  contents: read
+  deployments: write
+  checks: write  # Needed for Super-linter to report status
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
