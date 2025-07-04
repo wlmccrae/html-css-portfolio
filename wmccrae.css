@@ -18,7 +18,7 @@ body {
 
 .header {
   background-color: #08276b;
-  color: #fff;
+  color: #e7e7e7;
   margin-bottom: 10px;
   top: 0;
 }
@@ -149,7 +149,7 @@ footer {
   background-color: #08276b;
   padding: 5px;
   bottom: 0;
-  color: #fff;
+  color: #e7e7e7;
   font-style: italic;
   font-size: 10px;
 }
