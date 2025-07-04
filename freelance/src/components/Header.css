@@ -1,0 +1,50 @@
+.header {
+    background-color: #08276b;
+    color: #e7e7e7;
+    margin-bottom: 10px;
+    top: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:link {
+    color: #e6e9f0;
+  }
+
+  a.project-link:link {
+    color: #08276b;
+  }
+
+  a:visited {
+    color: #e6e9f0;
+  }
+
+  h1 {
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    font-style: normal;
+    margin: 0;
+    padding: 10px 0 0;
+    font-size: 30px;
+  }
+
+  h2 {
+    text-align: center;
+    font-style: oblique;
+    margin: 0;
+    padding: 5px 3px 0;
+    font-size: 15px;
+  }
+
+  .contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+  .contact > a {
+    padding: 10px;
+  }
