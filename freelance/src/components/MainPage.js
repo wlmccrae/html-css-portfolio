@@ -1,8 +1,12 @@
-import React from 'react';
+import './MainPage.css'
 
 function MainPage() {
   return (
-    <h1>Main Page</h1>
+    <div class="main-content">
+      <div class="main-title-container">
+        <div class="main-page-title">Welcome page</div>
+      </div>
+    </div>
   );
 };
 

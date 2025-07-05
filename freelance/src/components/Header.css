@@ -1,7 +1,6 @@
 .header {
-    background-color: #08276b;
+    background-color: #2983bc;
     color: #e7e7e7;
-    margin-bottom: 10px;
     top: 0;
   }
 
@@ -11,10 +10,6 @@
 
   a:link {
     color: #e6e9f0;
-  }
-
-  a.project-link:link {
-    color: #08276b;
   }
 
   a:visited {

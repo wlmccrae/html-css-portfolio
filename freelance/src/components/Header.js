@@ -1,4 +1,4 @@
-import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
@@ -7,9 +7,9 @@ function Header() {
       <h1>Wanda McCrae</h1>
       <h2>Freelance Web Developer</h2>
       <div class="contact">
-        <a href="index.html">Home</a>
-        <a href="samples.html">Sample Sites</a>
-        <a href="contact.html">Contact</a>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="samples">Sample Sites</NavLink>
+        <NavLink to="contact">Contact</NavLink>
       </div>
     </div>
   );
