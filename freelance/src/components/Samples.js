@@ -1,4 +1,4 @@
-import './Samples.css';
+import '../styles/Samples.css';
 
 function Samples() {
   return (
