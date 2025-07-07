@@ -1,0 +1,28 @@
+.prices-table {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.prices-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.price {
+  color: #184B6C;
+}
+
+.description {
+  font-style: italic;
+  text-align: justify;
+}
+
+.service-name {
+  color: #184B6C;
+}
