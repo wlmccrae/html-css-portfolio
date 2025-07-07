@@ -2,9 +2,9 @@ import '../styles/MainPage.css'
 
 function MainPage() {
   return (
-    <div class="main-content">
-      <div class="main-title-container">
-        <div class="main-page-title">Welcome page</div>
+    <div className="main-content">
+      <div className="main-title-container">
+        <div className="main-page-title">Welcome page</div>
       </div>
     </div>
   );
