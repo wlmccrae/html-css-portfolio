@@ -39,6 +39,7 @@
 
 .sample a{
   color: #2983bc;
+  text-decoration: none;
 }
 
 .sample-project-link {
