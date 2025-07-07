@@ -7,8 +7,13 @@
     font-size: 10px;
   }
 
-p {
+.footer p {
     margin: 0;
     padding: 0;
     text-align: right;
+}
+
+.footer-nav-link {
+  color: #ffffff;
+  text-decoration: none;
 }

@@ -4,15 +4,15 @@
     top: 0;
   }
 
-  a {
+  .header a {
     text-decoration: none;
   }
 
-  a:link {
+  .header a:link {
     color: #e6e9f0;
   }
 
-  a:visited {
+  .header a:visited {
     color: #e6e9f0;
   }
 
