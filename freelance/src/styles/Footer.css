@@ -4,11 +4,16 @@
     bottom: 0;
     color: #e7e7e7;
     font-style: italic;
-    font-size: 10px;
+    font-size: 12px;
   }
 
-p {
+.footer p {
     margin: 0;
     padding: 0;
     text-align: right;
+}
+
+.footer-nav-link {
+  color: #e7e7e7;
+  text-decoration: none;
 }

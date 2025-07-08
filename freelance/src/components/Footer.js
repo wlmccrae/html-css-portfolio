@@ -3,8 +3,8 @@ import '../styles/Footer.css';
 
 function Footer() {
   return (
-    <div class="footer">
-        <p>Copyright 2025 <NavLink to="/">Wanda McCrae</NavLink></p>
+    <div className="footer">
+        <p>Developed by and Copyright 2025 <NavLink to="/" className='footer-nav-link'>Wanda McCrae</NavLink>. </p>
     </div>
   );
 };

@@ -1,17 +1,49 @@
-.title-container {
-  text-align: center;
+.contact-instructions {
+  text-align: justify;
 }
 
-.page-title {
-  display: inline-flex;
+.contact-instructions p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form-row {
+  display: flex;
   flex-direction: row;
-  justify-content: center;
-  background-color: #3129BC;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #2983bc;
+}
+
+.message-field {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #2983bc;
+  margin-top: 5px;
+}
+
+.contact-me {
+  background-color: #2983bc;
+  color: #ffffff;
   border-radius: 10px;
-  margin: 5px 0;
-  padding: 5px 10px 10px 10px;
-  font-size: 30px;
-  font-weight: 300;
-  line-height: 1;
-  color: #e6e9f0;
+  margin-top: 5px;
+  padding: 5px 10px;
+}
+
+.required-field {
+  color: red;
+  font-weight: bold;
 }
