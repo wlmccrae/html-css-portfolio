@@ -207,7 +207,7 @@ footer {
     font-size: 18px;
   }
 
-  .contact {
+  .prof-contact {
     font-size: 13px;
   }
 
@@ -238,7 +238,7 @@ footer {
     font-size: 28px;
   }
 
-  .contact {
+  .prof-contact {
     display: flex;
     flex-flow: row wrap;
     gap: 20px;
