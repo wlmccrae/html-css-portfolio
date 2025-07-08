@@ -10,7 +10,7 @@ import './styles/global.css';
 
 function App() {
   return (
-    <div  className="app-container">
+    <div className="app-container">
       <BrowserRouter>
         <Header />
         <div className="main-content">

@@ -1,6 +1,11 @@
 .contact-instructions {
-  font-size: 12px;
   text-align: justify;
+}
+
+.contact-instructions p {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 7px;
 }
 
 .contact-form {
@@ -8,7 +13,6 @@
   flex-direction: column;
   margin-top: 10px;
   font-weight: bold;
-  font-size: 12px;
 }
 
 .contact-form-row {
