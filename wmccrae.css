@@ -13,6 +13,25 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 10px 0;         /* Override any default margins */
+}
+
+.coming-soon {
+  display: inline-block;
+  width: fit-content;
+  padding: 10px 20px;
+  background-color:#2d4d93;
+  border-radius: 10px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: #ffffff;
+}
+
 .header {
   background-color: #08276b;
   color: #e7e7e7;
