@@ -4,7 +4,6 @@
   flex-direction: column;
   align-items: center;
   max-width: 800px;
-  margin: 0 auto;
   padding: 20px;
 }
 
@@ -14,7 +13,7 @@
 
 .contact-page-title {
   font-family: Overlock, sans-serif;
-  margin: 5px 0;
+  margin: 2px 0;
   padding: 0;
   font-size: 30px;
   font-weight: 700;
@@ -22,6 +21,11 @@
 
 .contact-instructions {
   font-size: 12px;
+  text-align: justify;
+}
+
+.contact-break {
+  margin-top: 10px;
 }
 
 .contact-form {
