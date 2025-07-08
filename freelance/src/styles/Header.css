@@ -16,30 +16,43 @@
     color: #e6e9f0;
   }
 
-  h1 {
-    font-family: "Work Sans", sans-serif;
-    text-align: center;
-    font-style: normal;
-    margin: 0;
-    padding: 10px 0 0;
-    font-size: 30px;
+  .name-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
   }
 
-  h2 {
+  .my-logo {
+    max-width: 60px;
+    height: auto;
+  }
+
+  .my-name {
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px 0 0;
+    font-size: 32px;
+  }
+
+  .my-title {
     text-align: center;
     font-style: oblique;
     margin: 0;
     padding: 5px 3px 0;
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .contact {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    font-size: 10px;
-  }
-
-  .contact > a {
-    padding: 10px;
+    font-size: 14px;
+    gap: 15px;
+    padding: 5px;
   }

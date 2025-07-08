@@ -10,16 +10,20 @@ import './styles/global.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="services" element={<Services />} />
-        <Route path="samples" element={<Samples />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <div  className="app-container">
+      <BrowserRouter>
+        <Header />
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="services" element={<Services />} />
+            <Route path="samples" element={<Samples />} />
+            <Route path="contact" element={<Contact />} />
+          </Routes>
+        </div>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 

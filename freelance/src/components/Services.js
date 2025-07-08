@@ -3,9 +3,9 @@ import '../styles/Services.css';
 
 function Services () {
   return (
-    <div className="freelance-main-page">
-      <div className="main-title-container">
-        <div className="main-page-title">
+    <div className="freelance-page">
+      <div className="freelance-title-container">
+        <div className="freelance-page-title">
           Prices and Services
         </div>
       </div>
@@ -19,6 +19,11 @@ function Services () {
           <div className="service-name">GROWTH WEBSITE</div>
           <div className="description">Mobile-first, responsive design using a modern web framework (React.js) to allow for future interactivity/growth. Up to 2 pages (e.g. About and Gallery).</div>
           <div className="price">$398USD</div>
+        </div>
+        <div className="prices-row">
+          <div className="service-name">EXTRA PAGE</div>
+          <div className="description">Need more than two pages? Add as many more as you need.</div>
+          <div className="price">$99USD/page</div>
         </div>
         <div className="prices-row">
           <div className="service-name">CONTACT FORM ADD-ON</div>

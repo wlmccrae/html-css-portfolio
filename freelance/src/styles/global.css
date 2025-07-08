@@ -5,11 +5,40 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #184B6C;
+  margin-bottom: 20px;
+  width: 100%;
   /* background-image: url('../assets/code-img.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   min-height: 100vh; */
-  background-color: #ffffff;
+}
+
+.freelance-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.freelance-title-container {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.freelance-page-title {
+  font-family: Overlock, sans-serif;
+  margin: 2px 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2983bc;
 }
