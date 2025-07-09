@@ -17,3 +17,10 @@
   color: #e7e7e7;
   text-decoration: none;
 }
+
+/* Responsive CSS for iPad and larger screens */
+@media screen and (width >= 800px) {
+  .footer {
+    font-size: 15px;
+  }
+}
