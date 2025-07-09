@@ -68,4 +68,8 @@ body {
   .freelance-page {
     padding: 25px 100px;
   }
+
+  .freelance-page-title {
+    font-size: 50px;
+  }
 }
