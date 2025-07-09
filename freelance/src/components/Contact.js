@@ -16,6 +16,19 @@ function Contact() {
         });
     };
 
+    // Send the form data to email
+    const sendMessage = (event) => {
+      event.preventDefault();
+      console.log(`Message sent via form. Form Data: ${JSON.stringify(contactFormData)}`);
+
+      // Clear the form data
+      setContactFormData({
+        name: "",
+        email: "",
+        message: "",
+      })
+    };
+
   return (
     <div className="freelance-page">
       <div className="freelance-title-container">
@@ -25,22 +38,44 @@ function Contact() {
         <p>Have a project in mind? Need a fast, modern, or user-friendly website? I'd love to hear about it! Fill out the form below, and I'll get back to you within 72 hours to discuss how we can bring your ideas to life.</p>
         <p>Let's create something great&mdash;reach out today!</p>
       </div>
-      <form id="contact-form" className="contact-form">
+      <form id="contact-form" className="contact-form" onSubmit={sendMessage}>
         <div className="contact-form-row">
-          <label for="name">Your Name<span className="required-field">*</span>: </label>
-          <input className="form-input" onChange={handleChange} type="text" id="name" name="name" />
+          <label htmlFor="name">Your Name<span className="required-field">*</span>: </label>
+          <input
+            className="form-input"
+            onChange={handleChange}
+            type="text" id="name"
+            name="name"
+            value={contactFormData.name}
+            required
+          />
         </div>
         <div className="contact-form-row">
-          <label for="email">Your Email<span className="required-field">*</span>: </label>
-          <input className="form-input" onChange={handleChange} type="text" id="email" name="email" />
+          <label htmlFor="email">Your Email<span className="required-field">*</span>: </label>
+          <input
+            className="form-input"
+            onChange={handleChange}
+            type="email"
+            id="email"
+            name="email"
+            value={contactFormData.email}
+            required
+          />
         </div>
-        <label for="name">Message<span className="required-field">*</span>:</label>
-        <input className="message-field" onChange={handleChange} type="text" id="message" name="message" />
+        <label htmlFor="name">Message<span className="required-field">*</span>:</label>
+        <textarea
+          className="message-field"
+          onChange={handleChange}
+          id="message"
+          name="message"
+          value={contactFormData.message}
+          required
+        />
         <p><span className="required-field">*</span>Required field.</p>
+        <button type="submit" className="contact-me">
+          Send Message
+        </button>
       </form>
-      <button className="contact-me">
-        Send Message
-      </button>
     </div>
   )
 
