@@ -21,6 +21,6 @@
 /* Responsive CSS for iPad and larger screens */
 @media screen and (width >= 800px) {
   .footer {
-    font-size: 15px;
+    font-size: 17px;
   }
 }

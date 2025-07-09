@@ -37,11 +37,24 @@
   .main-page-title {
     font-size: 35px;
   }
+
+  .main-content-img {
+    padding-top: 20px;
+  }
 }
 
 /* Responsive CSS for the largest screens */
 @media screen and (width >= 1000px) {
   .main-page-title {
     font-size: 45px;
+  }
+
+  .welcome-message {
+    padding: 15px 0;
+  }
+
+  .checklist {
+    margin: 0;
+    padding: 5px 30px 0;
   }
 }
