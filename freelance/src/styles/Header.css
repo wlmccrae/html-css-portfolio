@@ -56,13 +56,8 @@
 
 /* Responsive CSS for iPad and larger screens */
 @media screen and (width >= 800px) {
-  .header-text {
-    max-width: 400px;
-    width: 100%
-  }
-
   .my-logo {
-    margin-right: 120px;
+    margin-right: auto;
     max-width: 120px;
   }
 
@@ -87,21 +82,13 @@
 
 /* Responsive CSS for the largest screens */
 @media screen and (width >= 1000px) {
-  .header {
-    justify-content: flex-start;
-  }
-
   .my-logo {
     max-width: 150px;
-  }
-
-  .header-text {
-    flex-grow: 0;
-    text-align: center;
+    margin: auto;
   }
 
   .my-name {
-    font-size: 55px;
+    font-size: 65px;
   }
 
   .my-title {
@@ -111,7 +98,7 @@
 
   .contact {
     font-size: 20px;
-    gap: 20px;
+    gap: 30px;
     padding: 10px 0;
   }
 }
