@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/freelance/static/css/main.e1ab9b2a.css",
-    "main.js": "/freelance/static/js/main.f40ab4d4.js",
+    "main.js": "/freelance/static/js/main.9aa18fa6.js",
     "static/js/453.20862419.chunk.js": "/freelance/static/js/453.20862419.chunk.js",
     "static/media/tea-shoppe-screenshot.png": "/freelance/static/media/tea-shoppe-screenshot.570df3f1241ad42aa636.png",
     "index.html": "/freelance/index.html",
     "main.e1ab9b2a.css.map": "/freelance/static/css/main.e1ab9b2a.css.map",
-    "main.f40ab4d4.js.map": "/freelance/static/js/main.f40ab4d4.js.map",
+    "main.9aa18fa6.js.map": "/freelance/static/js/main.9aa18fa6.js.map",
     "453.20862419.chunk.js.map": "/freelance/static/js/453.20862419.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1ab9b2a.css",
-    "static/js/main.f40ab4d4.js"
+    "static/js/main.9aa18fa6.js"
   ]
 }
