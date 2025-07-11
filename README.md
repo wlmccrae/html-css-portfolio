@@ -2,6 +2,8 @@
 
 Date: October 2024
 
+Mobile-first responsive design
+
 ## Tech Stack
 
 [Main site](https://wandamccrae.com/)
@@ -13,5 +15,3 @@ Date: October 2024
 * React.js - July 2025
 * CSS
 * Google Fonts
-
-Mobile-first responsive design.
