@@ -5,6 +5,7 @@ import Services from './components/Services';
 import Footer from './components/Footer';
 import Samples from './components/Samples';
 import Contact from './components/Contact';
+import Thanks from './components/Thanks';
 import './App.css';
 import './styles/global.css';
 
@@ -19,6 +20,7 @@ function App() {
             <Route path="services" element={<Services />} />
             <Route path="samples" element={<Samples />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="thanks" element={<Thanks />} />
           </Routes>
         </div>
         <Footer />
