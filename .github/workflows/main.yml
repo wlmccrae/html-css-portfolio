@@ -24,3 +24,4 @@ jobs:
           **/node_modules/**
           **/_actions/**
           **/_PipelineMapping/**
+          **/_temp/**
