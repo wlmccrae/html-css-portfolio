@@ -2,7 +2,7 @@
 
 Date: October 2024
 
-Mobile-first responsive design
+Mobile-first responsive design.
 
 ## Tech Stack
 
