@@ -4,7 +4,7 @@
 body {
   background-color: #e6e9f0;
   color: #08276b;
-  max-width: 95%;
+  /* max-width: 95%; */
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -13,30 +13,38 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
-.centered-container {
+.bg-image {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 0 10px 0;         /* Override any default margins */
-}
-
-.coming-soon {
-  display: inline-block;
-  width: fit-content;
-  padding: 10px 20px;
-  background-color:#2d4d93;
-  border-radius: 10px;
-  font-family: "Work Sans", sans-serif;
-  text-align: center;
-  font-size: 50px;
-  color: #ffffff;
+  color: white;
 }
 
 .header {
   background-color: #08276b;
+  display: flex;
+  flex-direction: row;
   color: #e7e7e7;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   top: 0;
+}
+
+.me {
+  width: 300px;
+  max-width: 35%;
+  height: auto;
+}
+
+.header-txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 a {
@@ -86,19 +94,13 @@ h1 {
   text-align: center;
   font-style: normal;
   margin: 0;
-  padding: 10px 0 0;
+  padding: 0;
   font-size: 30px;
 }
 
 h2 {
   text-align: center;
-  font-style: oblique;
-  margin: 0;
-  padding: 5px 3px 0;
-  font-size: 15px;
-}
-
-h3 {
+  font-style: normal;
   margin: 0;
   padding: 0;
   font-size: 15px;
@@ -106,9 +108,10 @@ h3 {
 
 .prof-contact {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
   justify-content: center;
-  font-size: 10px;
+  row-gap: 2px;
+  font-size: 8px;
 }
 
 .prof-contact > a {
@@ -116,23 +119,47 @@ h3 {
 }
 
 .aboutme {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 20px;
-  padding-right: 10px;
+  margin: 0;
+  padding: 0;
   text-align: justify;
+  position: relative;
+  min-height: 100vh;
+}
+
+.img-typing {
+  background-image: url('media/hands-typing.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.aboutme::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.75); /* White with 50% opacity */
+  z-index: 0;
 }
 
 .aboutme p {
-  margin-top: 0;
+  margin: 20px;
+  opacity: 100%;
+  position: relative; /* Bring text above the overlay */
+  z-index: 1;
+  opacity: 1; /* Ensure text is fully opaque */
+  top: 40vh;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
 }
 
-.me {
-  width: 300px;
-  max-width: 35%;
-  height: auto;
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
 }
 
 .techstack {
