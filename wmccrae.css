@@ -26,7 +26,7 @@ body {
 }
 
 .me {
-  width: 300px;
+  width: 200px;
   max-width: 30%;
   height: auto;
 }
@@ -235,44 +235,5 @@ footer {
 
   footer {
     font-size: 12px;
-  }
-}
-
-/* Responsive CSS for the largest screens */
-@media screen and (width >= 1000px) {
-  body {
-    font-size: 20px;
-  }
-
-  h1 {
-    font-size: 60px;
-  }
-
-  h2 {
-    font-size: 25px;
-  }
-
-  h3 {
-    font-size: 28px;
-  }
-
-  .prof-contact {
-    display: flex;
-    flex-flow: row wrap;
-    gap: 20px;
-    font-size: 20px;
-  }
-
-  .me {
-    max-width: 20%;
-  }
-
-  .aboutme {
-    gap: 30px;
-    padding: 0 30px 0 0;
-  }
-
-  footer {
-    font-size: 18px;
   }
 }
