@@ -237,6 +237,124 @@ footer {
   font-size: 10px;
 }
 
+/* Dyslexia mode toggle button */
+.dyslexia-btn {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 1000;
+  background-color: #e6e9f0;
+  color: #08276b;
+  border: 2px solid #08276b;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.dyslexia-btn:hover {
+  background-color: #08276b;
+  color: #e6e9f0;
+}
+
+.dyslexia-btn[aria-pressed="true"] {
+  background-color: #dcab0b;
+  color: #1a1a1a;
+  border-color: #b38a00;
+}
+
+.dyslexia-btn:focus-visible {
+  outline: 3px solid #dcab0b;
+  outline-offset: 2px;
+}
+
+/* =============================================
+   Dyslexia-friendly mode
+   Toggled by adding .dyslexia-mode to <body>
+   ============================================= */
+
+/* Body: warm cream background, OpenDyslexic font, generous spacing */
+.dyslexia-mode {
+  font-family: 'OpenDyslexic', Arial, sans-serif;
+  background-color: #fdf6e3;
+  color: #1a1a1a;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+  word-spacing: 0.12em;
+}
+
+/* Header: slightly lighter navy, more breathing room */
+.dyslexia-mode .intro {
+  background-color: #0d3366;
+  gap: 30px;
+}
+
+.dyslexia-mode h1,
+.dyslexia-mode h2 {
+  font-family: 'OpenDyslexic', Arial, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* Keep header links light against dark background */
+.dyslexia-mode .intro a:link,
+.dyslexia-mode .intro a:visited {
+  color: #e6e9f0;
+}
+
+/* About me: remove busy background image, warm cream overlay, left-aligned text */
+.dyslexia-mode .img-typing {
+  background-image: none;
+  background-color: #fdf6e3;
+}
+
+.dyslexia-mode .aboutme::before {
+  background-color: #fdf6e3;
+}
+
+.dyslexia-mode .aboutme p {
+  text-align: left;
+  line-height: 2;
+  font-size: 1.1em;
+  color: #1a1a1a;
+}
+
+/* Projects section: more padding, card-style items */
+.dyslexia-mode section[aria-labelledby="projects-heading"] {
+  padding: 10px 20px 30px;
+}
+
+.dyslexia-mode .projects {
+  gap: 20px;
+}
+
+.dyslexia-mode .project-item {
+  background-color: #fff8e7;
+  border-left: 4px solid #0d3366;
+  border-radius: 6px;
+  padding: 14px 18px;
+  max-width: 340px;
+  line-height: 1.9;
+}
+
+/* No italic — harder to read for dyslexia; add underline for link visibility */
+.dyslexia-mode .project-link {
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.dyslexia-mode a.project-link:link,
+.dyslexia-mode a.project-link:visited {
+  color: #0d3366;
+}
+
+/* Footer: no italic */
+.dyslexia-mode footer {
+  font-style: normal;
+  background-color: #0d3366;
+}
+
 /* Responsive CSS for iPad and larger screens */
 @media screen and (width >= 700px) {
   body {
