@@ -1,6 +1,43 @@
 /* <uniquifier>: Use a unique and descriptive class name
 <weight>: Use a value from 300 to 800 */
 
+/* Skip link: visible only on focus for keyboard users */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background-color: #08276b;
+  color: #e6e9f0;
+  padding: 8px 16px;
+  z-index: 1000;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Visually hidden but available to screen readers */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Focus styles for keyboard navigation */
+a:focus-visible {
+  outline: 3px solid #dcab0b;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 body {
   background-color: #e6e9f0;
   color: #08276b;
@@ -92,9 +129,9 @@ h1 {
 h2 {
   text-align: center;
   font-style: normal;
-  margin: 0;
+  margin-top: 20px;
   padding: 0;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 .prof-contact {
@@ -145,12 +182,6 @@ h2 {
   font-weight: 700;
   color: rgba(0, 0, 0, 1);
   text-align: justify;
-}
-
-h3 {
-  margin: 0;
-  padding: 0;
-  font-size: 15px;
 }
 
 .techstack {
@@ -221,12 +252,7 @@ footer {
   }
 
   h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    margin-top: 20px;
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .prof-contact {
